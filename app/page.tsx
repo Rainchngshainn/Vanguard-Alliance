@@ -57,18 +57,21 @@ export default function Home() {
               Learn More
             </button>
           </div>
-        </div>
+          <p className="text-sm md:text-sm text-gray-300 max-w-2xl mx-auto mt-12 -mb-14">
+             <i>A Simcompanies Player Community</i>
+          </p>
+          </div>
       </section>
 
       {/* INTRODUCTION / STATS */}
-      <section className="py-20 bg-neutral-900">
+      <section className="py-12 bg-neutral-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="p-6 bg-neutral-950 rounded-xl border border-neutral-800 hover:border-amber-500/50 transition-colors">
               {/* Amber Icon */}
               <Building2 className="w-12 h-12 text-amber-400 mx-auto mb-4" />
               <h3 className="text-xl font-bold text-white mb-2">Leading Players</h3>
-              <p className="text-gray-400">Comprised of Top-CV Players from All Sectors</p>
+              <p className="text-gray-400">Includes Top-CV Players from All Sectors</p>
             </div>
             <div className="p-6 bg-neutral-950 rounded-xl border border-neutral-800 hover:border-amber-500/50 transition-colors">
               <Users className="w-12 h-12 text-amber-400 mx-auto mb-4" />
@@ -84,43 +87,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* MISSION & EXEC TEAM */}
-      <section id="mission" className="py-24 bg-neutral-950">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
-          <p className="text-lg text-gray-400 leading-relaxed mb-16">
-            [To.....]
-          </p>
-
-          <h2 id="team" className="text-3xl font-bold text-white mb-10">Executive Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {/* Executive Card 1 - Gold theme */}
-            <div className="flex items-center space-x-4 p-4 bg-neutral-900 rounded-lg border border-neutral-800">
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-lg shadow-amber-900/20">
-                CEO
-              </div>
-              <div className="text-left">
-                <h4 className="text-lg font-bold text-white">Username</h4>
-                <p className="text-amber-400 text-sm">Chairman</p>
-              </div>
-            </div>
-            
-            {/* Executive Card 2 - Secondary gold/dark theme */}
-            <div className="flex items-center space-x-4 p-4 bg-neutral-900 rounded-lg border border-neutral-800">
-              <div className="w-16 h-16 bg-neutral-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-500 border border-amber-500/30">
-                COO
-              </div>
-              <div className="text-left">
-                <h4 className="text-lg font-bold text-white">Username</h4>
-                <p className="text-gray-400 text-sm">Director of Operations</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* NEW: LATEST NEWS SECTION */}
-      <section className="py-24 bg-neutral-900 border-t border-neutral-800">
+      <section className="py-16 bg-neutral-900 border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
             <div>
@@ -170,6 +138,41 @@ export default function Home() {
              <Link href="/news" className="inline-flex items-center text-amber-500 hover:text-amber-400 font-medium transition-colors">
               View all articles <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* MISSION & EXEC TEAM */}
+      <section id="mission" className="py-24 bg-neutral-950">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
+          <p className="text-lg text-gray-400 leading-relaxed mb-16">
+            [To.....]
+          </p>
+
+          <h2 id="team" className="text-3xl font-bold text-white mb-10">Executive Team</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {/* Executive Card 1 - Gold theme */}
+            <div className="flex items-center space-x-4 p-4 bg-neutral-900 rounded-lg border border-neutral-800">
+              <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center text-xl font-bold text-white shadow-lg shadow-amber-900/20">
+                CEO
+              </div>
+              <div className="text-left">
+                <h4 className="text-lg font-bold text-white">Username</h4>
+                <p className="text-amber-400 text-sm">Chairman</p>
+              </div>
+            </div>
+            
+            {/* Executive Card 2 - Secondary gold/dark theme */}
+            <div className="flex items-center space-x-4 p-4 bg-neutral-900 rounded-lg border border-neutral-800">
+              <div className="w-16 h-16 bg-neutral-700 rounded-full flex items-center justify-center text-xl font-bold text-amber-500 border border-amber-500/30">
+                COO
+              </div>
+              <div className="text-left">
+                <h4 className="text-lg font-bold text-white">Username</h4>
+                <p className="text-gray-400 text-sm">Director of Operations</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

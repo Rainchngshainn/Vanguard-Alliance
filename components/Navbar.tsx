@@ -28,10 +28,13 @@ export default function Navbar() {
               <Link href="/" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Homepage
               </Link>
-              <Link href="#mission" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+              <Link href="/" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+                About Us
+              </Link>
+              <Link href="#News" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 News
               </Link>
-              <Link href="#team" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
+              <Link href="#Member-list" className="text-gray-300 hover:text-amber-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">
                 Member List
               </Link>
               {/* Gold Button */}
